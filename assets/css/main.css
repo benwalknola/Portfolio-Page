@@ -1963,8 +1963,9 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: #1d38a9;
+		background-color: #f3731e;
 		color: #fff !important;
+		transition: .4s ease;
 	}
 
 		input[type="submit"]:hover,
@@ -1973,6 +1974,7 @@
 		button:hover,
 		.button:hover {
 			background-color: whitesmoke;
+			color: black !important;
 		}
 
 		input[type="submit"]:active,
@@ -1980,7 +1982,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #1d38a9;
+			background-color: #f3731e;
 		}
 
 		input[type="submit"].alt,
@@ -2896,7 +2898,6 @@
 			}
 
 		.wrapper.style1 {
-			margin-top: 90px;
 			background-color: #fafafa;
 			color: #999999;
 		}
@@ -2943,7 +2944,7 @@
 			.wrapper.style1 input[type="button"],
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
-				background-color: #;
+				background-color: #f3731e;
 				color: #fff !important;
 			}
 
@@ -2952,7 +2953,8 @@
 				.wrapper.style1 input[type="button"]:hover,
 				.wrapper.style1 button:hover,
 				.wrapper.style1 .button:hover {
-					background-color: #4aa3df;
+					background-color: whitesmoke;
+					color: black !important;
 				}
 
 				.wrapper.style1 input[type="submit"]:active,
@@ -3154,7 +3156,16 @@
 			.wrapper.style2 input[type="button"],
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
-				background-color: #f3731e;
+				background-color: whitesmoke;
+				color: black !important;
+			}
+
+			.wrapper.style2 input[type="submit"]:hover,
+			.wrapper.style2 input[type="reset"]:hover,
+			.wrapper.style2 input[type="button"]:hover,
+			.wrapper.style2 button:hover,
+			.wrapper.style2 .button:hover {
+				background-color: black;
 				color: whitesmoke !important;
 			}
 
